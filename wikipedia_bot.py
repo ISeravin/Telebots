@@ -1,6 +1,6 @@
 import wikipedia, re
 # Создаем экземпляр бота
-bot = telebot.TeleBot('5313051539:AAGwXNS3ZUtQ_OkK9RziFCGcQICPIG9Bjfc')
+bot = telebot.TeleBot('TOKEN')
 # Устанавливаем русский язык в Wikipedia
 wikipedia.set_lang("ru")
 # Чистим текст статьи в Wikipedia и ограничиваем его тысячей символов
